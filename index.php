@@ -4,10 +4,10 @@ use Kirby\Cms\Page;
 use Kirby\Cms\App;
 
 if (
-	version_compare(App::version() ?? '0.0.0', '5.0.0', '<') ||
-	version_compare(App::version() ?? '0.0.0', '6.0.0', '>=')
+	version_compare(App::version() ?? '0.0.0', '6.0.0', '<') ||
+	version_compare(App::version() ?? '0.0.0', '7.0.0', '>=')
 ) {
-	throw new Exception('UUID Button requires Kirby v5');
+	throw new Exception('UUID Button requires Kirby v6');
 }
 
 Kirby::plugin('scottboms/uuid-button', [
@@ -33,7 +33,7 @@ Kirby::plugin('scottboms/uuid-button', [
 	],
 	'info' => [
 		'homepage' => 'https://github.com/scottboms/kirby-uuid-button',
-		'version'  => '1.0.3',
+		'version'  => '6.0.0',
 		'license'  => 'MIT',
 		'authors'  => [[ 'name' => 'Scott Boms' ]],
 	],

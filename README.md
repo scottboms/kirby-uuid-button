@@ -2,12 +2,12 @@
 
 ![Plugin Preview](src/assets/kirby-uuid-button.jpg)
 
-A customizable View Button for Kirby 5 that can be used to quickly copy a page's (linK: https://getkirby.com/docs/guide/uuids text: UUID) in the (page://UUID) format.
+A customizable View Button for Kirby 6 that can be used to quickly copy a page's (linK: https://getkirby.com/docs/guide/uuids text: UUID) in the (page://UUID) format.
 
 
 ## Requirements
 
-This plugin requires Kirby 5.x and newer. It will not work with earlier versions of Kirby.
+This plugin requires Kirby 6.x. It will not work with earlier versions of Kirby.
 
 
 ## Installation
